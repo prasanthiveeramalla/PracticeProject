@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="FBRegressionAutomationSuite" >
+ 
+   <!-- <test name="Practice Grouping">
+        <groups>
+     <run>
+ <include name="A" />
+     </run>
+ </groups>
+  <classes>
+       <class name="tests.facebook.MercuryTestsSupportPage"/>
+    </classes>
+  </test>Practice Grouping -->
+ <!--  <test  name="BATAutomation" >
+    <classes>
+      <class name="tests.facebook.MercuryTestsLoginPage"/>
+       <class name="tests.facebook.MercuryTestsSupportPage"/>
+       <class name="tests.facebook.MercuryTestsContactPage"/> 
+       <class name="tests.facebook.MercuryTestsRegisterPage"/> 
+    </classes>
+  </test> BATAutomation -->
+ 
+<test name='PracticeParameters'>
+
+<parameter name="sUsername" value="Mercury"/>
+ 
+ <parameter name="sPassword" value="Mercury"/>
+ 
+ <classes>
+ 
+     <class name="tests.facebook.MercuryTestsLoginPage" />
+ 
+ </classes>
+
+</test>
+
+</suite> <!-- FBRegressionAutomationSuite -->

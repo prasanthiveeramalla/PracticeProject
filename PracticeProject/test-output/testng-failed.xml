@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [FBRegressionAutomationSuite]">
+  <test thread-count="1" name="PracticeParameters(failed)">
+    <parameter name="sUsername" value="Mercury"/>
+    <parameter name="sPassword" value="Mercury"/>
+    <classes>
+      <class name="tests.facebook.MercuryTestsLoginPage">
+        <methods>
+          <include name="finish"/>
+          <include name="mercuryLoginTest"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- tests.facebook.MercuryTestsLoginPage -->
+    </classes>
+  </test> <!-- PracticeParameters(failed) -->
+</suite> <!-- Failed suite [FBRegressionAutomationSuite] -->
